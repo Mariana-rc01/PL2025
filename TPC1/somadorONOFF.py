@@ -4,6 +4,7 @@ def main():
     numberS = ""
 
     line = input("> ")
+
     while (line != ""):
         line = line.lower() + '\n'
         for index, char in enumerate(line):
@@ -17,13 +18,12 @@ def main():
                     if len(numberS) > 0:
                         sum += int(numberS)
                         numberS = ""
-
             else:
                 if char == 'o' and line[index: index + 2] == "on":
                     state = True
 
             if char == '=':
-                print("Soma =", sum, '\n')
+                print("Soma = ", sum, '\n')
 
         line = input("> ")
 

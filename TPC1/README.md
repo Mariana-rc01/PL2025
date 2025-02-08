@@ -19,12 +19,12 @@ Em seguida, lê a entrada do utilizador e analisa cada caractere da linha. Se o 
 
 ### Testar o programa: 
 
-1. Executa o código em Python `python3 somadorONOFF.py`.  
-2. Escreve uma linha com números e as palavras "on" e "off" para ligar ou desligar a soma.  
-3. O programa soma os números enquanto estiver *on*.  
-4. Para ver o total atual, escreve "=".  
-5. Para parar a soma, usa "off". Para retomar, escreve "on".  
-6. Para sair, carrega Enter sem escrever nada.  
+1. No terminal, execute: `python3 somadorONOFF.py`.  
+2. Escreva uma linha com números e as palavras "on" e "off" para controlar a soma.  
+3. Os números são somados enquanto o estado estiver *on*.  
+4. Escreva "=" para ver o total atual.  
+5. Use "off" para parar a soma e "on" para retomá-la.  
+6. Para sair, carrege Enter sem escrever nada.
 
 **Exemplo:**  
 
@@ -36,4 +36,4 @@ Saída:
 ```
 Soma = 52
 ```  
-(A soma para no "off", ignora o 5, retoma no "on" e adiciona o 6.)
+A soma para no "off", ignora o 5, retoma no "on" e adiciona o 6.
