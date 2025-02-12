@@ -1,11 +1,11 @@
+import sys
+
 def main():
     sum = 0
     state = True
     numberS = ""
 
-    line = input("> ")
-
-    while (line != ""):
+    for line in sys.stdin:
         line = line.lower() + '\n'
         for index, char in enumerate(line):
             if state:
@@ -24,8 +24,6 @@ def main():
 
             if char == '=':
                 print("Soma = ", sum, '\n')
-
-        line = input("> ")
 
 if __name__ == '__main__':
     main()

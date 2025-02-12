@@ -17,14 +17,26 @@ O programa começa por criar as seguintes variáveis:
 
 Em seguida, lê a entrada do utilizador e analisa cada caractere da linha. Se o estado estiver *on*, cada dígito identificado é guardado no `numberS` e ao encontrar um caractere que não é um número, o conteúdo de `numberS` é convertido para inteiro (através de um cast) e é adicionado ao total (`sum`). Se a palavra "off" for detectada, o estado muda para *False*, interrompendo a soma até que "on" seja identificado novamente. Se surgir "=", o programa exibe a soma atual. 
 
-### Testar o programa: 
+### Testar o programa:
 
-1. No terminal, execute: `python3 somadorONOFF.py`.  
+Caso pretenda testar diretamente no teclado, execute o programa:
+
+1. No terminal, execute: 
+<pre>
+$ python3 <a href="somadorONOFF.py">somadorONOFF.py</a>
+</pre>
 2. Escreva uma linha com números e as palavras "on" e "off" para controlar a soma.  
 3. Os números são somados enquanto o estado estiver *on*.  
 4. Escreva "=" para ver o total atual.  
 5. Use "off" para parar a soma e "on" para retomá-la.  
-6. Para sair, carrege Enter sem escrever nada.
+6. Para sair, pressione CTRL+D.
+
+Caso queira usar um ficheiro para testar o programa:
+
+1. No terminal, execute:
+<pre>
+$ python3 <a href="somadorONOFF.py">somadorONOFF.py</a> < <a href="teste.txt">teste.txt</a>
+</pre>
 
 **Exemplo:**  
 
