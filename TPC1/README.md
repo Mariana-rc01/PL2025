@@ -38,6 +38,8 @@ Caso queira usar um ficheiro para testar o programa:
 $ python3 <a href="somadorONOFF.py">somadorONOFF.py</a> < <a href="teste.txt">teste.txt</a>
 </pre>
 
+Nos ficheiros <a href="resultado.txt">resultado.txt</a> e <a href="resultado1.txt">resultado1.txt</a> pode visualizar o output dos ficheiros <a href="teste.txt">teste.txt</a> e <a href="teste1.txt">teste1.txt</a>, respetivamente.
+
 **Exemplo:**  
 
 Entrada:  

@@ -23,7 +23,8 @@ def main():
                     state = True
 
             if char == '=':
-                print("Soma = ", sum, '\n')
+                print(">> ", sum)
+    print (">> ", sum)
 
 if __name__ == '__main__':
     main()
