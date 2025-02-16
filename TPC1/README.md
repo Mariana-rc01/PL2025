@@ -1,13 +1,13 @@
-# TPC1: Somador on/off
+# TPC1: Somador on/off ➕
 
-## Autor
+## Autor 🌻
 Mariana Rocha (A90817)
 
-## Explicação
+## Explicação 📋
 
 Este programa, **somadorONOFF**, recebe uma linha de texto da entrada e adiciona todos os números inteiros encontrados enquanto o estado estiver ativado (*on*). Se em alguma parte do texto surgir a palavra "off" (com quaisquer variações de maiúsculas e minúsculas), o programa desativa a soma. Quando o "on" surge novamente, a soma é reiniciada. Sempre que for detetado um "=", o programa exibe o valor atual da soma. O procedimento repete-se até que o utilizador insira uma linha vazia.
 
-### Raciocínio:
+### Raciocínio 🧩
 
 O programa começa por criar as seguintes variáveis: 
 
@@ -17,7 +17,7 @@ O programa começa por criar as seguintes variáveis:
 
 Em seguida, lê a entrada do utilizador e analisa cada caractere da linha. Se o estado estiver *on*, cada dígito identificado é guardado no `numberS` e ao encontrar um caractere que não é um número, o conteúdo de `numberS` é convertido para inteiro (através de um cast) e é adicionado ao total (`sum`). Se a palavra "off" for detectada, o estado muda para *False*, interrompendo a soma até que "on" seja identificado novamente. Se surgir "=", o programa exibe a soma atual. 
 
-### Testar o programa:
+### Como executar 🛠️
 
 Caso pretenda testar diretamente no teclado, execute o programa:
 
@@ -38,9 +38,9 @@ Caso queira usar um ficheiro para testar o programa:
 $ python3 <a href="somadorONOFF.py">somadorONOFF.py</a> < <a href="teste.txt">teste.txt</a>
 </pre>
 
-Nos ficheiros <a href="resultado.txt">resultado.txt</a> e <a href="resultado1.txt">resultado1.txt</a> pode visualizar o output dos ficheiros <a href="teste.txt">teste.txt</a> e <a href="teste1.txt">teste1.txt</a>, respetivamente.
+### Exemplos e Resultados 📊
 
-**Exemplo:**  
+Nos ficheiros <a href="resultado.txt">resultado.txt</a> e <a href="resultado1.txt">resultado1.txt</a> pode visualizar o output dos ficheiros <a href="teste.txt">teste.txt</a> e <a href="teste1.txt">teste1.txt</a>, respetivamente.
 
 Entrada:  
 ```
