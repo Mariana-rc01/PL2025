@@ -1,10 +1,7 @@
-# TPC6
+Baseado nos materiais fornecidos na aula, cria um parser LL(1) recursivo descendente que reconheça expressões aritméticas e calcule o respetivo valor.
 
-5 + 3 * 2
-2 * 7 - 5 * 3
+Exemplos de algumas frases:
 
-Fazer um recursivo descendente, onde é necessário:
-
-1) Reconhecer tokens
-2) Reconhecer frases
-3) Ações semânticas => calcular o valor **correto**
+2+3
+67-(2+3*4)
+(9-2)*(13-4)
