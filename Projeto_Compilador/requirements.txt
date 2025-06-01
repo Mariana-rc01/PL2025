@@ -1,0 +1,6 @@
+Flask
+matplotlib
+networkx
+pydot
+graphviz
+pytest
